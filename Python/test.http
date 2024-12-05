@@ -1,0 +1,30 @@
+GET http://127.0.0.1:8000
+
+###
+
+POST http://127.0.0.1:8000
+Content-Type: application/json
+
+{
+  "number": 2,
+  "day": 10,
+  "month": 2,
+  "year": 2077,
+  "device": "Cyber",
+  "problemtype": "Zamok",
+  "description": "Leni",
+  "client": "Artem",
+  "status": "Negotov"
+}
+
+###
+
+PUT http://127.0.0.1:8000/1
+Content-Type: application/json
+
+{
+  "status" : "1",
+  "master" : "1",
+  "description" : "1",
+  "comment" : "Кирилл"
+}
